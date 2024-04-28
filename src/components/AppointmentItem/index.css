@@ -1,0 +1,42 @@
+.list-item {
+  background-color: #ffffff;
+  border: solid 1px #9897f0;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style: none;
+  max-width: 300px;
+  margin: 10px;
+}
+
+.display-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.star-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  width: 20px;
+}
+
+.date {
+  color: #b5b7c4;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
